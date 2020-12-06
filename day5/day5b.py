@@ -14,7 +14,7 @@ def getMaxId(seats):
     for i in range(1, len(ids)-1):
         if(ids[i]+2 == ids[i+1]):
             return ids[i]+1
-            
+                        
     return None
 
 def calculate(string, range):
